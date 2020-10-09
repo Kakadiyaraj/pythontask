@@ -18,8 +18,7 @@ for x in range(1,501):
     *******************************
 #Write a python program to print ODD numbers between 0 to 501.
 
-for x in range(1,501):
-  if x%2!=0:
+for x in range(1, 501, 2):
     print(x)
     
    ****************
